@@ -1,4 +1,4 @@
-package com.dashboard.sales;
+package com.dashboard.sales.sales.view;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
