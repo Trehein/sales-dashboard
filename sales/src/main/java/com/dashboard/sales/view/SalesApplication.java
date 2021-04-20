@@ -1,5 +1,7 @@
-package com.dashboard.sales.sales.view;
+package com.dashboard.sales.view;
 
+import com.dashboard.sales.controller.MainController;
+import org.apache.commons.dbcp.BasicDataSource;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
@@ -7,6 +9,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class SalesApplication {
 
 	public static void main(String[] args) {
+		MainController mainController = new MainController();
+		mainController.run();
+
 		SpringApplication.run(SalesApplication.class, args);
 	}
 
