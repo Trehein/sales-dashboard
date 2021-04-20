@@ -47,8 +47,6 @@ CREATE TABLE products (
         CONSTRAINT fk_categories_id FOREIGN KEY (category_id) REFERENCES categories(category_id)
 );
 
-
-
 CREATE TABLE customers (
         customer_id serial NOT NULL,
         address_id integer NOT NULL,
