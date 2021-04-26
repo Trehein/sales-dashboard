@@ -8,13 +8,11 @@ public class MainController {
 
     public static void run() {
         BasicDataSource ds = new BasicDataSource();
-        ds.setUrl("jdbc:postgresql://localhost:5432/puppies");
+        ds.setUrl("jdbc:postgresql://localhost:5432/sales");
         ds.setUsername("postgres");
         ds.setPassword("postgres1");
 
         System.out.println("test run");
     }
-
-
-
+    
 }
